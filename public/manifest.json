@@ -21,8 +21,8 @@
         "purpose": "any maskable"
       }
     ],
-    "start_url": "/",
-    "scope": "/",
+    "start_url": "https://sebastianlb.vercel.app",
+    "scope": "https://sebastianlb.vercel.app",
     "display": "standalone",
     "theme_color": "#ffa500",
     "background_color": "#ffffff",
