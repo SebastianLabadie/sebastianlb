@@ -24,6 +24,10 @@ class MyDocument extends Document {
             name="apple-mobile-web-app-status-bar-style"
             content="black-translucent"
           />
+          <script
+            src="https://kit.fontawesome.com/61a207640a.js"
+            crossOrigin="anonymous"
+          ></script>
         </Head>
         <body>
           <Main />
