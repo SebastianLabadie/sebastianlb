@@ -36,6 +36,9 @@ const FooterStyled = styled.div`
     }
   }
   
+  h2{
+    font-size:1.2em;
+  }
 
   @media screen and (max-width: 1000px) {
       .container{
