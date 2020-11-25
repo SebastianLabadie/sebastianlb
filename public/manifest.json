@@ -1,0 +1,28 @@
+{
+    "name": "Sebastian Labadie - Fullstack",
+    "short_name": "SebastianLb",
+    "icons": [
+      {
+        "src": "/iconMobile.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/iconMobile.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/iconMobile.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "scope": "/index.html",
+    "display": "standalone",
+    "theme_color": "#ffa500",
+    "background_color": "#ffffff",
+    "related_applications": [],
+    "prefer_related_applications": false
+  }

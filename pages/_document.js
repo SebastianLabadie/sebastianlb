@@ -16,6 +16,14 @@ class MyDocument extends Document {
             name="Description"
             content="Portfolio created by Sebastian Labadie, made in nextjs."
           />
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="apple-touch-icon" href="/iconMobile.png" />
+          <meta name="apple-mobile-web-app-title" content="SebatianLB" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          />
         </Head>
         <body>
           <Main />
