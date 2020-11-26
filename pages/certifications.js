@@ -10,6 +10,8 @@ import diplomaGatsby from '../assets/images/diploma-gatsby-1.jpg'
 import diplomaReactCoursera from '../assets/images/Coursera react-1.jpg'
 import diplomaBootstrap from '../assets/images/Coursera bootstrap-1.jpg'
 import diplomaBackCoursera from '../assets/images/Coursera backend-1.jpg'
+import diplomaECMA from '../assets/images/diploma-ecmascript-6-1.jpg' 
+import diplomaNpm from '../assets/images/diploma-npm-1.jpg' 
 import diplomaGenexus from '../assets/images/diploma genexus.jpg' 
 import CertificatesCard from "../src/components/Certificates/CertificatesCard";
 import { motion } from "framer-motion";
@@ -75,6 +77,8 @@ function Certificates() {
           <CertificatesCard title="modal3" img={diplomaPWA}/>
           <CertificatesCard title="modal3" img={diplomaNext}/>
           <CertificatesCard title="modal1" img={diplomaGatsby}/>
+          <CertificatesCard title="modal1" img={diplomaECMA}/>
+          <CertificatesCard title="modal1" img={diplomaNpm}/>
           <CertificatesCard title="modal2" img={diplomaReactCoursera}/>
           <CertificatesCard title="modal3" img={diplomaBackCoursera}/>
           <CertificatesCard title="modal3" img={diplomaBootstrap}/>
