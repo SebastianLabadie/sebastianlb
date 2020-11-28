@@ -15,6 +15,7 @@ import diplomaNpm from '../assets/images/diploma-npm-1.jpg'
 import diplomaGenexus from '../assets/images/diploma genexus.jpg' 
 import diplomaAsincro from '../assets/images/diploma-asincronismo-js-1.jpg' 
 import diplomaComunicacion from '../assets/images/diploma-estrategias-comunicar-1.jpg' 
+import diplomaScrum from '../assets/images/diploma-scrum-1.jpg' 
 import diplomaTailwind from '../assets/images/diploma-tailwind-css-1.jpg' 
 import CertificatesCard from "../src/components/Certificates/CertificatesCard";
 import { motion } from "framer-motion";
@@ -76,6 +77,7 @@ function Certificates() {
 
         <div className="certificates__container">
           <CertificatesCard title="modal1" img={diplomaReactAvanzado}/>
+          <CertificatesCard title="modal2" img={diplomaScrum} />
           <CertificatesCard title="modal2" img={diplomaRN} />
           <CertificatesCard title="modal3" img={diplomaPWA}/>
           <CertificatesCard title="modal3" img={diplomaNext}/>
