@@ -18,7 +18,8 @@ import diplomaComunicacion from '../assets/images/diploma-estrategias-comunicar-
 import diplomaScrum from '../assets/images/diploma-scrum-1.jpg' 
 import diplomaSFPC from '../assets/images/diplomaSFPC-1.jpg' 
 import diplomaSQL from '../assets/images/diploma-practico-sql-1.jpg'
-import diplomaSQL2 from '../assets/images/diploma-sql-mysql-1.jpg' 
+import diplomaSQL2 from '../assets/images/diploma-sql-mysql-1.jpg'
+import diplomaVueBasic from '../assets/images/diploma-vuejs-1.jpg'
 import diplomaTailwind from '../assets/images/diploma-tailwind-css-1.jpg' 
 import CertificatesCard from "../src/components/Certificates/CertificatesCard";
 import { motion } from "framer-motion";
@@ -88,6 +89,7 @@ function Certificates() {
           <CertificatesCard title="modal1" img={diplomaGatsby}/>
           <CertificatesCard title="modal1" img={diplomaSQL2}/>
           <CertificatesCard title="modal1" img={diplomaSQL}/>
+          <CertificatesCard title="modal1" img={diplomaVueBasic}/>
           <CertificatesCard title="modal1" img={diplomaECMA}/>
           <CertificatesCard title="modal1" img={diplomaAsincro}/>
           <CertificatesCard title="modal1" img={diplomaTailwind}/>
